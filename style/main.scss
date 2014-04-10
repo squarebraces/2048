@@ -468,6 +468,13 @@ hr {
   float: right;
 }
 
+.undo-button {
+  @include button;
+  display: block;
+  text-align: center;
+  float: right;
+}
+
 .game-explanation {
   margin-top: 50px;
 }
@@ -524,6 +531,14 @@ hr {
     display: block;
     box-sizing: border-box;
     margin-top: 2px;
+  }
+
+  .undo-button {
+    width: 42%;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+    margin-top: 10px;
   }
 
   // Render the game field at the right width
